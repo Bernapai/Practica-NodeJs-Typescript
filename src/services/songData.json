@@ -1,0 +1,72 @@
+[
+    {
+        "id": 1,
+        "title": "Let It Happen",
+        "album": "Currents",
+        "year": 2015,
+        "duration": "7:47"
+    },
+    {
+        "id": 2,
+        "title": "The Less I Know The Better",
+        "album": "Currents",
+        "year": 2015,
+        "duration": "3:36"
+    },
+    {
+        "id": 3,
+        "title": "Feels Like We Only Go Backwards",
+        "album": "Lonerism",
+        "year": 2012,
+        "duration": "3:12"
+    },
+    {
+        "id": 4,
+        "title": "Borderline",
+        "album": "The Slow Rush",
+        "year": 2020,
+        "duration": "4:34"
+    },
+    {
+        "id": 5,
+        "title": "Elephant",
+        "album": "Lonerism",
+        "year": 2012,
+        "duration": "3:31"
+    },
+    {
+        "id": 6,
+        "title": "New Person, Same Old Mistakes",
+        "album": "Currents",
+        "year": 2015,
+        "duration": "6:03"
+    },
+    {
+        "id": 7,
+        "title": "Yes I'm Changing",
+        "album": "Currents",
+        "year": 2015,
+        "duration": "4:31"
+    },
+    {
+        "id": 8,
+        "title": "Apocalypse Dreams",
+        "album": "Lonerism",
+        "year": 2012,
+        "duration": "5:57"
+    },
+    {
+        "id": 9,
+        "title": "Eventually",
+        "album": "Currents",
+        "year": 2015,
+        "duration": "5:19"
+    },
+    {
+        "id": 10,
+        "title": "Lost In Yesterday",
+        "album": "The Slow Rush",
+        "year": 2020,
+        "duration": "4:09"
+    }
+]
