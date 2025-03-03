@@ -1,14 +1,23 @@
-import express from 'express';
+import express from 'express'
+import * as songServices from '../services/songServices'
 
-const router = express.Router();
-
+const router = express.Router()
 
 router.get('/', (_req, res) => {
-    res.send('Fetching data from database...');
-});
+  res.send(songServices.getAllSongs())
+})
 
-router.post('/', (_req, res) => {
-    res.send('Creating new record...');
-});
+router.get('/:id', (req, res) => {
+  const song = songServices.findBydId(Number(req.params.id))
+  res.send(song)
+})
 
-export default router;
+router.post('/', (req, res) => {
+  const { id, title, album, year, duration } = req.body
+  const newSong = songServices.addSong({ id, title, album, year, duration })
+  res.send(newSong)
+})
+
+
+
+export default router
