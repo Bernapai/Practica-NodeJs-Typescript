@@ -1,4 +1,9 @@
-export type Albums = 'currents' | 'lonerism' | 'innerspeaker'
+
+export enum Albums {
+  Currents = 'currents',
+  Lonerism = 'lonerism',
+  Innerspeaker = 'innnerspeaker'
+}
 
 export interface Song {
   id: number

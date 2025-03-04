@@ -22,3 +22,7 @@ export const updateSong = (id: number, updateSong: Partial<Song>): Song | undefi
   songs[index] = { ...songs[index], ...updateSong }
   return songs[index]
 }
+
+export const deleteSong = (): undefined => {
+  return undefined
+}
